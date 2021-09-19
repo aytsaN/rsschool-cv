@@ -21,6 +21,8 @@ The enthusiastic and detail-oriented Software Engineer is seeking an opportunity
 - Scrum/Agile
 
 ## Code Example
+ Implement a `spyOn` function which takes any function `func` as a parameter and returns a `spy` for `func`. The returned `spy` must be callable in the same manner as the original `func`.
+
 ```
 function cache(fun) {
   let memory = {};
@@ -36,7 +38,7 @@ function cache(fun) {
 
 ## Education
 **Belarusian State University of Informatics and Radioelectronics**  
-Economics in Electronic Business
+Economics in Electronic Business  
 2014 - 2019
 
 **The Rolling Scopes School**  
