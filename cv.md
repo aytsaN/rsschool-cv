@@ -20,7 +20,7 @@ The enthusiastic and detail-oriented Software Engineer is seeking an opportunity
 - OOP
 - Scrum/Agile
 
-## Code Example:
+## Code Example
 ```
 function cache(fun) {
   let memory = {};
@@ -33,3 +33,14 @@ function cache(fun) {
   }
 }
 ```
+
+## Education
+**Belarusian State University of Informatics and Radioelectronics**  
+Economics in Electronic Business
+2014 - 2019
+
+**The Rolling Scopes School**  
+2018
+
+**EPAM ServiceNow training**  
+2018
