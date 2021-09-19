@@ -1,1 +1,1 @@
-# rsschool-cv
+https://aytsaN.io/rsschool-cv/cv
