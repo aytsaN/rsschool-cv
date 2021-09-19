@@ -1,1 +1,0 @@
-https://aytsaN.io/rsschool-cv/cv
