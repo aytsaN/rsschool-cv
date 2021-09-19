@@ -46,3 +46,8 @@ Economics in Electronic Business
 
 **EPAM ServiceNow training**  
 2018
+
+## Languages
+**English** - B1+  
+**Belarusian** - native  
+**Russian** - native  
