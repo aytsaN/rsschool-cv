@@ -52,6 +52,7 @@ ul {
   width: inherit;
   min-height: 40px;
   padding: var(--padding);
+  background-color: #f6f6f6;
 }
 
 .header-nav {
@@ -120,7 +121,7 @@ ul {
 }
 
 .section {
-  padding: 70px 0;
+  padding: 50px 0;
 }
 
 .summary {
@@ -169,4 +170,44 @@ ul {
 
 .skills-list__item:hover {
   font-size: 1.5rem;
+}
+
+.education .section-content,
+.experience .section-content {
+  flex-direction: column;
+  border-left: 1px solid #f26b38
+}
+
+.section__item {
+  margin-bottom: 30px;
+}
+
+.section__item-year {
+  display: inline-flex;
+  margin-bottom: 8px;
+  padding: 2px 9px;
+  font-size: .8rem;
+  color: #f26b38;
+  border: 1px solid #f26b38;
+  border-left: none;
+}
+
+.section__item-name,
+.section__item-desc {
+  padding-left: 10px;
+}
+
+.section__item-name {
+  font-weight: 700;
+}
+
+.education-experience {
+  display: flex;
+  flex-direction: row;
+}
+
+.education,
+.experience {
+  width: 80%;
+  padding-right: 10px;
 }
