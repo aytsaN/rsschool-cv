@@ -177,7 +177,7 @@ ul {
 }
 
 .skills-list__item:hover {
-  font-size: 1.5rem;
+  color: #555;
 }
 
 .education .section-content,
