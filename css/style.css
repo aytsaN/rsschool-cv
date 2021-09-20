@@ -18,7 +18,12 @@ body {
 }
 
 a {
+  color: #222;
   text-decoration: none;
+}
+
+a:hover {
+  color: #f26b38;
 }
 
 ul {
@@ -55,7 +60,7 @@ ul {
   z-index: 100;
   max-width: var(--max-width);
   width: inherit;
-  min-height: 40px;
+  min-height: 50px;
   padding: var(--padding);
   background-color: #f6f6f6;
 }
@@ -226,6 +231,11 @@ ul {
   right: 0;
   padding: var(--padding);
   background-color: #f6f6f6;
+}
+
+.footer .soc__link {
+  margin: 10px;
+  font-size: 1.5rem;
 }
 
 .line {
