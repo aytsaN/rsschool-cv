@@ -4,6 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Anastasiya Shamal - Front-End Developer</title>
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.9/styles/default.min.css">
+    <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.9/highlight.min.js"></script>
+    <script>hljs.initHighlightingOnLoad();</script>
     <link rel="stylesheet" href="css/style.css">
   </head>
   <body>
@@ -40,7 +43,7 @@
           <h3 class="section-title">Summary</h3>
           <div class="section-content">
             <img src="image/avatar.jpg" alt="" class="profile-img" width="150" height="150">
-            <p class="summary-desc">The enthusiastic and detail-oriented Software Engineer is seeking an opportunity to extend the web
+            <p class="summary-desc section-desc">Hi, I am Ana!<br>The enthusiastic and detail-oriented Software Engineer is seeking an opportunity to extend the web
               development knowledge. Having 3 years experience in ServiceNow development using JavaScript. My current position requires
               less and less coding and logical task solving skills every year. I, on the other hand, desire the opposite of that. My goal
               is to change my course from IT Service Management to JavaScript developer. Having a positive outlook and am always willing
@@ -65,7 +68,7 @@
         <section class="education-experience section">
         <section class="education section" id="education">
           <h3 class="section-title">Education</h3>
-          <div class="section-content">
+          <div class="section-content content-col">
             <div class="section__item">
               <div class="section__item-year">2014 - 2019</div>
               <div class="section__item-name">Belarusian State University of Informatics and Radioelectronics</div>
@@ -85,7 +88,7 @@
         </section>
         <section class="experience section" id="experience">
           <h3 class="section-title">Experience</h3>
-          <div class="section-content">
+          <div class="section-content content-col">
             <div class="section__item">
               <div class="section__item-year">2018 - present</div>
               <div class="section__item-name">EPAM</div>
@@ -100,8 +103,25 @@
       </section>
         <section class="code-example section" id="codeExample">
           <h3 class="section-title">Code Example</h3>
-          <div class="section-content">
-
+          <div class="section-content content-col">
+            <p class="section-desc">
+              Implement a <span class="bold">spyOn</span> function which takes any function <span class="bold">func</span> as a parameter and returns a <span class="bold">spy</span> for <span class="bold">func</span>.
+              The returned <span class="bold">spy</span> must be callable in the same manner as the original <span class="bold">func</span>.
+            </p>
+            <pre>
+              <code>
+                function cache(fun) {
+                  let memory = {};
+                  return function(...args) {
+                    const key = JSON.stringify(args)
+                    if (!(key in memory)) {
+                      memory[key] = fun.apply(this, args);
+                    }
+                    return memory[key];
+                  }
+                }
+              </code>
+          </pre>
           </div>
         </section>
       </main>

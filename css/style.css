@@ -33,6 +33,10 @@ ul {
   margin: -1px;
 }
 
+.bold {
+  font-weight: 900;
+}
+
 .wrapper {
   display: flex;
   min-height: 100vh;
@@ -146,6 +150,10 @@ ul {
   line-height: 23px;
 }
 
+.content-col {
+  flex-direction: column;
+}
+
 .profile-img {
   border-radius: 50%;
   filter: grayscale(50%);
@@ -174,7 +182,6 @@ ul {
 
 .education .section-content,
 .experience .section-content {
-  flex-direction: column;
   border-left: 1px solid #f26b38
 }
 
@@ -211,3 +218,4 @@ ul {
   width: 80%;
   padding-right: 10px;
 }
+
