@@ -1,6 +1,7 @@
 :root {
   --max-width: 1440px;
   --padding: 0 min(50px, 30vw);
+  --line-size: 15px;
 }
 
 * {
@@ -219,3 +220,47 @@ ul {
   padding-right: 10px;
 }
 
+.footer {
+  position: fixed;
+  bottom: 25px;
+  right: 0;
+  padding: var(--padding);
+  background-color: #f6f6f6;
+}
+
+.line {
+  content: '';
+  position: fixed;
+  background-color: #f26b38;
+  z-index: 105;
+}
+
+.line.top {
+  left: 0;
+    top: 0;
+    width: 100%;
+    height: var(--line-size);
+}
+
+.line.bottom {
+  left: 0;
+    top: auto;
+    bottom: 0;
+    width: 100%;
+    height: var(--line-size);
+}
+
+.line.left {
+  left: 0;
+  top: 0;
+  width: var(--line-size);
+  height: 200%;
+}
+
+.line.right {
+  left: auto;
+  right: 0;
+  top: 0;
+  width: var(--line-size);
+  height: 200%;
+}
