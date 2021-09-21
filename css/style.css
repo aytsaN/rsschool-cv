@@ -71,8 +71,29 @@ ul {
   padding-top: 30px;
 }
 
+@media (max-width: 840px) {
+  .header-nav {
+    justify-content: center;
+  }
+
+  .site-navigation {
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+  }
+}
+
 .site-navigation__item {
   margin-left: 20px;
+}
+
+@media (max-width: 840px) {
+  .site-navigation__item {
+    padding-bottom: 5px;
+  }
+  .site-navigation__item a {
+    text-align: center;
+  }
 }
 
 .welcome {
@@ -156,11 +177,18 @@ ul {
   line-height: 23px;
 }
 
+@media (max-width: 840px) {
+  .section-content {
+    flex-direction: column;
+  }
+}
+
 .content-col {
   flex-direction: column;
 }
 
 .profile-img {
+  margin: 10px;
   border-radius: 50%;
   filter: grayscale(50%);
 }
@@ -217,6 +245,12 @@ ul {
 .education-experience {
   display: flex;
   flex-direction: row;
+}
+
+@media (max-width: 840px) {
+  .education-experience {
+    flex-direction: column;
+  }
 }
 
 .education,
