@@ -40,7 +40,7 @@ ul {
 }
 
 .bold {
-  font-weight: 900;
+  font-weight: 700;
 }
 
 .wrapper {
@@ -106,7 +106,7 @@ ul {
 
 .welcome__job {
   margin-top: 7px;
-  font-weight: 100;
+  font-weight: 400;
   font-size: 2vw;
   letter-spacing: .4vmax;
 }
@@ -142,7 +142,7 @@ ul {
 .section-title {
   width: 35%;
   margin-bottom: 50px;
-  font-weight: 100;
+  font-weight: 400;
   font-size: 24px;
   text-transform: uppercase;
   letter-spacing: 0.04em;
@@ -172,7 +172,7 @@ ul {
 .skills-list {
   flex-wrap: wrap;
   justify-content: space-around;
-  font-weight: 900;
+  font-weight: 800;
   font-size: 1.4rem;
 }
 
