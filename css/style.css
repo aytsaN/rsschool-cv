@@ -60,7 +60,7 @@ ul {
   z-index: 100;
   max-width: var(--max-width);
   width: inherit;
-  min-height: 50px;
+  min-height: 55px;
   padding: var(--padding);
   background-color: #f6f6f6;
 }
@@ -85,7 +85,7 @@ ul {
 }
 
 .welcome > * {
-  margin-top: 35vh;
+  margin-top: 25vh;
 }
 
 .welcome-container {
