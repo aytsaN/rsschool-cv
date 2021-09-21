@@ -264,6 +264,10 @@ ul {
   margin-bottom: 20px;
 }
 
+.project-img {
+  width: 50%;
+}
+
 .footer {
   position: fixed;
   display: flex;
