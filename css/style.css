@@ -259,6 +259,11 @@ ul {
   padding-right: 10px;
 }
 
+.project-link {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
 .footer {
   position: fixed;
   display: flex;
