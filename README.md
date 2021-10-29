@@ -1,1 +1,3 @@
-https://aytsan.github.io/rsschool-cv/
+# CV
+
+CV page: https://aytsan.github.io/rsschool-cv/
